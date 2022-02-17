@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icons/ICO Vla do chopp.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/PaginaHome.css">
+    <style>
+        label {
+            font-size: 14px;
+        }
+    </style>
+    <title>Editat Perfil</title>
+</head>
+
+<body>
+
+    <!-- Inicio do menu -->
+
+    <header>
+
+        <div class="container">
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <nav class=" navbar navbar-expand-lg align-items-center">
+                <div class="col-6">
+                    <a class="navbar-brand" href="index.html"><img src="img/LogoVilla.png" class="img-fluid" alt="logoEmpresa" style="width: 80px;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class=" col-6 navbar-nav mr-auto align-self-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#speciality">Especialidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Cardapio.html">Cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Lojas.html">Lojas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review">Comentários</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Galeria</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"><i class="bi bi-people-fill "></i></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Login.html">Login</a>
+                                <a class="dropdown-item" href="Perfil.html">Editar Perfil</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Fim do menu -->
+
+    <div class=" rounded bg-white mt-5 mb-5">
+        <div class="row m-3 fixed-bottom">
+            <div class="col-md-3 border-right">
+                <div class="d-flex flex-column align-items-center  font-weight-bold text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="img/LogoVilla.png"><span class="font-weight-bold" id="FotoPerfil">Villa Do Chopp</span>
+                    <span class="text-black-50" id="UserEmail">villadochoppbauru@gmail.com</span><span> </span></div>
+            </div>
+            <div class="col border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">Configurações de perfil</h4>
+                    </div>
+                    <form class="px-3 py-3" action="" method="POST">
+                        <H5>Dados Pessoais: <i class="bi bi-people-fill"></i></H5>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col font-weight-bold" ">
+                                    <label for="inputName ">Nome:</label>
+                                    <input type="text " id="inputName " class="form-control " placeholder=" " required>
+
+                                    <label for="inputTelefone-Celular ">CPF/CNPJ</label>
+                                    <input type="tel " class="form-control " id="inputTelefone-Celular " placeholder="Ex: XXX.XXX.XXX-XX " required>
+
+
+                                </div>
+                                <div class="col ">
+                                    <label for="inputSurname ">Sobrenome:</label>
+                                    <input type="text " class="form-control " id="inputSurname " placeholder=" " required>
+
+                                    <label for="inputNascimento ">Nascimento/IE</label>
+                                    <input type="date " class="form-control " id="inputNascimento " placeholder=" " required>
+
+                                </div>
+                                <div class="col ">
+                                    <label for="inputTelefone-Celular ">Telefone/Celular:</label>
+                                    <input type="tel " class="form-control " id="inputTelefone-Celular " placeholder="Ex: (xx) 99798-9999 " required>
+
+                                    <label for="inputSexo ">Sexo:</label>
+                                    <select id="inputSexo " class="form-control " required>
+                                        <option selected hidden>Escolha...</option>
+                                        <option value="AC ">Masculino</option>
+                                        <option value="AL ">Feminino</option>
+                                        <option value="AL ">Outros...</option>
+                                </select>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <hr>
+                        <H5>Dados de Login: <i class="bi bi-box-arrow-in-right "></i></H5>
+                        <div class="form-row ">
+                            <div class="form-group col-md-6 ">
+                                <label for="inputEmail4 ">Email:</label>
+                                <input type="email " class="form-control " id="inputEmail4 " placeholder="Ex:doejohnn@email.com " required>
+                            </div>
+                            <div class="form-group col-md-6 ">
+                                <label for="inputPassword4 ">Senha:</label>
+                                <input type="password " class="form-control " id="inputPassword4 " placeholder="Ex:123@abc " required>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <H5>Dados para Entrega: <i class="bi bi-geo-alt-fill "></i></H5>
+                        <div class="form-row ">
+                            <div class="form-group col-md-6 ">
+                                <label for="inputAddress ">Endereço:</label>
+                                <input type="text " class="form-control " id="inputAddress " placeholder="Av Vinicius de Morais, 25 " required>
+                            </div>
+                            <div class="form-group col-md-6 ">
+                                <label for="inputAddress2 ">Complemento:</label>
+                                <input type="text " class="form-control " id="inputAddress2 " placeholder="Apartamento, casa, sítio... ">
+                            </div>
+                            <div class="form-group col-md-3 ">
+                                <label for="inputPaís ">País:</label>
+                                <input type="text " class="form-control " id="inputPaís " required>
+                            </div>
+
+                            <div class="form-group col-md-3 ">
+                                <label for="inputState ">Estado:</label>
+                                <select id="inputState " class="form-control " required>
+                                        <option selected hidden>Escolha...</option>
+                                        <option value="AC ">Acre</option>
+                                        <option value="AL ">Alagoas</option>
+                                        <option value="AP ">Amapá</option>
+                                        <option value="AM ">Amazonas</option>
+                                        <option value="BA ">Bahia</option>
+                                        <option value="CE ">Ceará</option>
+                                        <option value="DF ">Distrito Federal</option>
+                                        <option value="ES ">Espírito Santo</option>
+                                        <option value="GO ">Goiás</option>
+                                        <option value="MA ">Maranhão</option>
+                                        <option value="MT ">Mato Grosso</option>
+                                        <option value="MS ">Mato Grosso do Sul</option>
+                                        <option value="MG ">Minas Gerais</option>
+                                        <option value="PA ">Pará</option>
+                                        <option value="PB ">Paraíba</option>
+                                        <option value="PR ">Paraná</option>
+                                        <option value="PE ">Pernambuco</option>
+                                        <option value="PI ">Piauí</option>
+                                        <option value="RJ ">Rio de Janeiro</option>
+                                        <option value="RN ">Rio Grande do Norte</option>
+                                        <option value="RS ">Rio Grande do Sul</option>
+                                        <option value="RO ">Rondônia</option>
+                                        <option value="RR ">Roraima</option>
+                                        <option value="SC ">Santa Catarina</option>
+                                        <option value="SP ">São Paulo</option>
+                                        <option value="SE ">Sergipe</option>
+                                        <option value="TO ">Tocantins</option>
+                                    </select>
+                            </div>
+
+                            <div class="form-group col-md-3 ">
+                                <label for="inputCity ">Cidade:</label>
+                                <input type="text " class="form-control " id="inputCity " required>
+                            </div>
+
+                            <div class="form-group col-md-3 ">
+                                <label for="inputZip ">Cep:</label>
+                                <input type="text " class="form-control " id="inputZip " placeholder=" " required>
+                            </div>
+
+
+                        </div>
+
+                        <button type="submit " class="btn bg-success text-light ">Editar Perfil</button>
+                        <button type="submit " class="btn bg-primary text-light ">Salvar</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="js/script.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF " crossorigin="anonymous "></script>
+</body>
+
+</html>

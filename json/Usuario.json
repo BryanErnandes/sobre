@@ -1,0 +1,20 @@
+[{
+    "usuario": [{
+        "id": 1,
+        "nome": "Bruno Henrique",
+        "sobrenome": "Da Silva",
+        "cpf": 123,
+        "nascimento": "1994/08/05",
+        "telefone": "(14)99798-3845",
+        "sexo": "Masculino",
+        "email": "brunohds19@gail.com",
+        "senha": 123456789,
+        "cep": "17022-152",
+        "estado": "SP",
+        "cidade": "Bauru",
+        "logradouro": "Rua: Lucia Boni SÃO Pedro n°1-58",
+        "bairro": "Nova Bauru",
+        "Complemento": "Antiga rua 11"
+    }]
+
+}]

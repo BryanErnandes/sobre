@@ -1,0 +1,543 @@
+[{
+        "nome": "Chopp",
+        "produtos": [{
+                "num": 1,
+                "nome": "Brahma Pilsen",
+                "ibu": 10,
+                "teorAlcoolico": "4,8%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "Por ser uma bebida leve e bem carbonatada, combina com queijos pouco condimentados, saladas, frutos do mar e petiscos fritos.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 10.00
+                    },
+                    {
+                        "nome": "Caldereta",
+                        "tamanho": "350ml",
+                        "valor": 10.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 40.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 13.00
+                    }
+                ]
+            },
+
+            {
+                "num": 2,
+                "nome": "Brahma Black",
+                "ibu": 10,
+                "teorAlcoolico": "4,8%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "As notas de malte torrados deixam essa cerveja excelente para harmonizar com sobremesas, como torta de chocolate e sorvete de creme.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 11.00
+                    },
+                    {
+                        "nome": "Copo Especial",
+                        "tamanho": "430ml",
+                        "valor": 11.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 44.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 14.00
+                    }
+                ]
+            },
+
+            {
+                "num": 3,
+                "nome": "Antarctica",
+                "ibu": 9,
+                "teorAlcoolico": "4,7%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "Combina com petiscos como castanhas e amendoins, mas tambem aves e carne grelhada.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 11.00
+                    },
+                    {
+                        "nome": "Tulipa",
+                        "tamanho": "300ml",
+                        "valor": 11.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 44.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 15.00
+                    }
+                ]
+            },
+
+            {
+                "num": 4,
+                "nome": "Stella Artois",
+                "ibu": 16,
+                "teorAlcoolico": "5%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "A Stella Artois tem equilibrio e sofisticacao. O amargor e a alta refrescancia vao cortar a gordura de carnes vermelhas, ja os aromas florais vao complementar a harmonizacao com frutos do mar.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 12.00
+                    },
+                    {
+                        "nome": "Calice",
+                        "tamanho": "350ml",
+                        "valor": 12.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 48.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 15.00
+                    }
+                ]
+            },
+
+            {
+                "num": 5,
+                "nome": "Colorado Appia",
+                "ibu": 10,
+                "teorAlcoolico": "5,5%",
+                "temperatura": "4-8ºC",
+                "harmonizacao": "Por ser uma cerveja leve, a Colorado Appia vai combinar muito bem comidas mais leves como pernil, saladas, frango, massas e queijo brie.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 13.00
+                    },
+                    {
+                        "nome": "Caldereta",
+                        "tamanho": "350ml",
+                        "valor": 13.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 52.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 17.00
+                    }
+                ]
+            },
+
+            {
+                "num": 6,
+                "nome": "Colorado Riberao Lager",
+                "ibu": 20,
+                "teorAlcoolico": "4,5%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "A citricidade e leveza da Ribeirao Lager harmonizam com alimentos leves e frescos como peixes grelhados e saladas. O amargor ajuda a quebrar a gordura do camarão alho e oleo.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 12.00
+                    },
+                    {
+                        "nome": "Caldereta",
+                        "tamanho": "350ml",
+                        "valor": 12.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 48.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 18.00
+                    }
+                ]
+            },
+
+            {
+                "num": 7,
+                "nome": "Patagonia Amber Lager",
+                "ibu": 14.5,
+                "teorAlcoolico": "4,5%",
+                "temperatura": "4-8ºC",
+                "harmonizacao": "Por ser uma cerveja com presença de maltes levemente mais escuro, possui notas de caramelizacao que vai bem com carnes e vegetais grelhados.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 14.00
+                    },
+                    {
+                        "nome": "Caldereta",
+                        "tamanho": "350ml",
+                        "valor": 14.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 56.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 18.00
+                    }
+                ]
+            },
+
+            {
+                "num": 8,
+                "nome": "Patagonia Bohemian Pilsener",
+                "ibu": 18,
+                "teorAlcoolico": "5,2%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "Lula frita é uma otima pedida com Pilsen, pois a cerveja vai limpar o paladar deixando o sabor da lula intacto. Todo peixe com sabor intenso vai muito bem com esse estilo de cerveja.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 14.00
+                    },
+                    {
+                        "nome": "Caldereta",
+                        "tamanho": "350ml",
+                        "valor": 14.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 56.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 18.00
+                    }
+                ]
+            },
+
+            {
+                "num": 9,
+                "nome": "Patagonia Weisse",
+                "ibu": 10,
+                "teorAlcoolico": "4,4%",
+                "temperatura": "4-8ºC",
+                "harmonizacao": "O sabor e os aromas marcantes da Patagonia Weisse combinam muito bem com varios pratos com peixe.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 14.00
+                    },
+                    {
+                        "nome": "Caldereta",
+                        "tamanho": "350ml",
+                        "valor": 14.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 56.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 18.00
+                    }
+                ]
+            },
+
+            {
+                "num": 10,
+                "nome": "Patagonia Ipa",
+                "ibu": 40,
+                "teorAlcoolico": "5,8%",
+                "temperatura": "2-4ºC",
+                "harmonizacao": "Nossa IPA é o mais recente liquido da Patagonia, buscando alcançar o maior numero de apreciadores de cerveja possível. Coloração acobreada, limpida e brilhante. Intenso aroma frutado e citrico com notas resinosas e herbais. Sabor lupulado com amargor marcante e duradouro. Corpo leve e refrescante.",
+                "apresentacoes": [{
+                        "nome": "Caneca",
+                        "tamanho": "350ml",
+                        "valor": 14.00
+                    },
+                    {
+                        "nome": "Caldereta",
+                        "tamanho": "350ml",
+                        "valor": 14.00
+                    },
+                    {
+                        "nome": "Canecao",
+                        "tamanho": "1.350ml",
+                        "valor": 56.00
+                    },
+                    {
+                        "nome": "Descartavel",
+                        "tamanho": "440ml",
+                        "valor": 18.00
+                    }
+                ]
+            }
+        ]
+
+
+    },
+    {
+        "nome": "Cervejas",
+        "produtos": [{
+                "num": 1,
+                "nome": "Beck's",
+                "ibu": 20,
+                "teorAlcoolico": "5%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "Por ser uma cerveja tradicional da Alemanha, harmoniza bem com os principais pratos alemaes. Mas para quem busca alimentos mais leves ela tambem harmoniza com peixes grelhados, frutos do mar e saladas por conta da sua alta refrescancia.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "330ml",
+                    "valor": 10.00
+                }]
+            },
+
+            {
+                "num": 2,
+                "nome": "Brahma Malzbier",
+                "ibu": 8.5,
+                "teorAlcoolico": "3,8%",
+                "temperatura": "8-12ºC",
+                "harmonizacao": "As notas de malte torrados deixam essa cerveja excelente para harmonizar com sobremesas, como torta de chocolate e sorvete de creme.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "355ml",
+                    "valor": 8.00
+                }]
+            },
+
+            {
+                "num": 3,
+                "nome": "Budweiser",
+                "ibu": 10,
+                "teorAlcoolico": "5%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "O sabor marcante no começo e suave no final de Budweiser pede que ela harmonize com hamburguer clássico, presunto cozido e mix de castanhas.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "330ml",
+                    "valor": 8.00
+                }]
+            },
+
+            {
+                "num": 4,
+                "nome": "Corona Extra ",
+                "ibu": 18,
+                "teorAlcoolico": "4,6%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "O sabor marcante e amargor presente de Corona permitem que ela harmonize com bolinhos de bacalhau, ostras temperadas ou camarões fritos. Uma fatia de limão no gargalo transforma a experiência em algo ainda mais especial.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "330ml",
+                    "valor": 10.00
+                }]
+            },
+
+            {
+                "num": 5,
+                "nome": "Goose Island Midway ",
+                "ibu": 18,
+                "teorAlcoolico": "4,1%",
+                "temperatura": "4-8ºC",
+                "harmonizacao": "Harmoniza com comida mexicana (tacos, quesadilla), chicken wings e hamburguer.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "355ml",
+                    "valor": 14.00
+                }]
+            },
+
+            {
+                "num": 6,
+                "nome": "Michelob Ultra ",
+                "ibu": 3,
+                "teorAlcoolico": "3,5%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "Harmoniza com comidas leves e saladas.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "355ml",
+                    "valor": 12.00
+                }]
+            },
+
+            {
+                "num": 7,
+                "nome": "Patagonia Amber Lager ",
+                "ibu": 14.5,
+                "teorAlcoolico": "4,5%",
+                "temperatura": "4-8ºC",
+                "harmonizacao": "Por ser uma cerveja com presença de maltes levemente mais escuro, possui notas de caramelização que vai bem com carnes e vegetais grelhados.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "355ml",
+                    "valor": 12.00
+                }]
+            },
+
+            {
+                "num": 8,
+                "nome": "Patagonia Bohemian Pilsener ",
+                "ibu": 18,
+                "teorAlcoolico": "5,2%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "Lula frita é uma otima pedida com Pilsen, pois a cerveja vai limpar o paladar deixando o sabor da lula intacto. Todo peixe com sabor intenso vai muito bem com esse estilo de cerveja.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "355ml",
+                    "valor": 12.00
+                }]
+            },
+
+            {
+                "num": 9,
+                "nome": "Patagonia Weisse ",
+                "ibu": 10,
+                "teorAlcoolico": "4,4%",
+                "temperatura": "4-8ºC",
+                "harmonizacao": "O sabor e os aromas marcantes da Patagonia Weisse combinam muito bem com vários pratos com peixe.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "355ml",
+                    "valor": 12.00
+                }]
+            },
+
+            {
+                "num": 10,
+                "nome": "Stella Artois ",
+                "ibu": 16,
+                "teorAlcoolico": "5%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "A Stella Artois tem equilibrio e sofisticacao. O amargor e a alta refrescância vão cortar a gordura de carnes vermelhas, ja os aromas florais vao complementar a harmonizacao com frutos do mar.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "330ml",
+                    "valor": 9.00
+                }]
+            },
+
+            {
+                "num": 11,
+                "nome": "Stella Artois Sem Gluten ",
+                "ibu": 16,
+                "teorAlcoolico": "5%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "Harmoniza com Salada Caprese, Sushi e Cevivhe.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "330ml",
+                    "valor": 12.00
+                }]
+            }
+        ]
+    },
+
+    {
+        "nome": "Sem Alcool",
+        "produtos": [{
+                "num": 1,
+                "nome": "Brahma Zero Sem Alcool ",
+                "ibu": 8.5,
+                "teorAlcoolico": "0%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "Por ser uma cerveja leve e bem carbonatada, combina com queijos pouco condimentados, saladas, frutos do mar e petiscos fritos.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "355ml",
+                    "valor": 8.00
+                }]
+            },
+
+            {
+                "num": 2,
+                "nome": "Wals Session Free ",
+                "ibu": 30,
+                "teorAlcoolico": "0%",
+                "temperatura": "8-12ºC",
+                "harmonizacao": "Cervejas Session são mais leves e com menor teor alcoolico que o estilo base, (nesse caso IPA). Procure harmonizar com alimentos leves para um sabor não sobrepor o outro!",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "355ml",
+                    "valor": 12.00
+                }]
+            }
+
+        ]
+    },
+
+    {
+        "nome": "Garrafas",
+        "produtos": [{
+                "num": 1,
+                "nome": "Patagonia Bohemian Pilsener ",
+                "ibu": 18,
+                "teorAlcoolico": "5,2%",
+                "temperatura": "0-4ºC",
+                "harmonizacao": "Lula frita é uma otima pedida com Pilsen, pois a cerveja vai limpar o paladar deixando o sabor da lula intacto. Todo peixe com sabor intenso vai muito bem com esse estilo de cerveja.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "740ml",
+                    "valor": 24.00
+                }]
+            },
+
+            {
+                "num": 2,
+                "nome": "Patagonia Weisse ",
+                "ibu": 10,
+                "teorAlcoolico": "4,4%",
+                "temperatura": "4-8ºC",
+                "harmonizacao": "O sabor e os aromas marcantes da Patagonia Weisse combinam muito bem com vários pratos com peixe.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "740ml",
+                    "valor": 24.00
+                }]
+            },
+
+            {
+                "num": 3,
+                "nome": "Patagonia Amber Larger ",
+                "ibu": 14.5,
+                "teorAlcoolico": "4,5%",
+                "temperatura": "4-8ºC",
+                "harmonizacao": "Por ser uma cerveja com presença de maltes levemente mais escuro, possui notas de caramelização que vai bem com carnes e vegetais grelhados.",
+                "apresentacoes": [{
+                    "nome": "Long Neck",
+                    "tamanho": "740ml",
+                    "valor": 24.00
+                }]
+            }
+
+        ]
+    }
+]

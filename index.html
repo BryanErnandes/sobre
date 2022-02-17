@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icons/ICO Vla do chopp.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/PaginaHome.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <script src="https://unpkg.com/vue@next"></script>
+    <title>Villa Do Chopp</title>
+</head>
+
+<body>
+
+    <!-- Inicio do menu -->
+
+    <header>
+
+        <div class="container">
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <nav class=" navbar navbar-expand-lg align-items-center">
+                <div class="col-6">
+                    <a class="navbar-brand" href="index.html"><img src="img/LogoVilla.png" class="img-fluid" alt="logoEmpresa" style="width: 80px;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class=" col-6 navbar-nav mr-auto align-self-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#speciality">Especialidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Cardapio.html">Cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Lojas.html">Lojas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review">Comentários</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Galeria</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"><i class="bi bi-people-fill "></i></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Login.html">Login</a>
+                                <a class="dropdown-item" href="Perfil.html">Editar Perfil</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Fim do menu -->
+
+
+    <!--inicio da Home-->
+
+    <section class="container home" id="home">
+
+        <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active"> <img src="img/Carosel01.jpg" class="d-block img-fluid " alt="..."></div>
+                <div class="carousel-item"> <img src="img/Carosel02.jpg" class="d-block img-fluid" alt="..."> </div>
+                <div class="carousel-item"> <img src="img/Carosel03.jpg" class="d-block  img-fluid " alt="..."> </div>
+            </div>
+            <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                <div class="banner-icons"> <i class="bi bi-arrow-left-circle-fill" style="font-size: 3.5rem;"></i> </div> <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                <div class="banner-icons"> <i class="bi bi-arrow-right-circle-fill" style="font-size: 3.5rem;"></i> </div> <span class="sr-only">Proximo</span>
+            </a>
+        </div>
+
+        <div class="melhoreschopps">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 content">
+                    <h3>Os melhores chopp da região</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas accusamus tempore temporibus rem amet laudantium animi optio voluptatum. Natus obcaecati unde porro nostrum ipsam itaque impedit incidunt rem quisquam eos!</p>
+                    <a href="Sobre.html" class="btn btn-lg btn-warning btn-block">Venha Conhecer</a>
+                </div>
+                <div class="col-1"></div>
+                <div class="col image">
+                    <img src="img/logobeer.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+    <!-- home  ends -->
+
+    <!-- speciality  starts  -->
+
+    <section class="speciality container" id="speciality">
+
+        <h1 class="heading text-muted"> Nossa <span>Especialidade</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img class="image" src="img/Ambev_Logo.png" alt="">
+                <div class="content">
+                    <h3>Brahma Claro</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="img/BrahmaBlack.png" alt="">
+                <div class="content">
+                    <h3>Brahma Black</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="img/Antarctica.png" alt="">
+                <div class="content">
+                    <h3>Antarctica</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="img/StellaArtois.png" alt="">
+                <div class="content">
+                    <h3>Stella Artois</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="img/Colorado.png" alt="">
+                <div class="content">
+                    <h3>Colorado Appia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="img/chopp1.jpg" alt="">
+                <div class="content">
+                    <h3>Colorado Ribeira Lager </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="img/Patagonia.png" alt="">
+                <div class="content">
+                    <h3>Patagonia Bohemian Pilsener</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="img/chopp1.jpg" alt="">
+                <div class="content">
+                    <h3>Patagonia Weisse</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- speciality  ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery container" id="gallery">
+
+        <h1 class="heading text-muted"> Chopp <span> Galeria </span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/boteco001.jpg" alt="">
+                <div class="content">
+                    <h3>Eventos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                    <a href="#" class="btn btn-lg btn-warning btn-block">Ver mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/boteco002.jpg" alt="">
+                <div class="content">
+                    <h3>Eventos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                    <a href="#" class="btn btn-lg btn-warning btn-block">Ver mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/boteco003.jpg" alt="">
+                <div class="content">
+                    <h3>Eventos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                    <a href="#" class="btn btn-lg btn-warning btn-block">Ver mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/boteco004.jpg" alt="">
+                <div class="content">
+                    <h3>Eventos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                    <a href="#" class="btn btn-lg btn-warning btn-block">Ver mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/boteco003.jpg" alt="">
+                <div class="content">
+                    <h3>Eventos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                    <a href="#" class="btn btn-lg btn-warning btn-block">Ver mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/boteco001.jpg" alt="">
+                <div class="content">
+                    <h3>Eventos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                    <a href="#" class="btn btn-lg btn-warning btn-block">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review container" id="review">
+
+        <h1 class="heading text-muted "> comentários de <span>nossos clientes</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/pic1.png" alt="">
+                <h3>Luciane Barrozo</h3>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>Lugar muuito agradável, atendimento nota 10 </p>
+            </div>
+            <div class="box">
+                <img src="img/pic2.png" alt="">
+                <h3>Bruno Henrique</h3>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>Amamos,chopp no ponto ,sempre com novidades ..Lugar maravilhosoooo chopp sensacional, atendimento nota 1.000</p>
+            </div>
+            <div class="box">
+                <img src="img/pic3.png" alt="">
+                <h3>Nayara Bozza</h3>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>Fui pela primeira vez e fiquei encantada com o lugar , voltarei mais vezes.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    < <!-- footer section -->
+
+        <footer>
+            <div class="">
+                <div class="card ">
+                    <div class="row mb-2 ">
+
+                        <div class="col-md-3 col-sm-6 col-xs-4  align-self-start">
+                            <div class="d-flex ">
+                                <img src="img/Ambev_Logo.png" class="img-fluid " alt="logoEmpresa " style="width: 100px; margin-right: 10px; ">
+                                <img src="img/BrahmaBlack.png " class="img-fluid " alt="logoEmpresa " style="width: 100px; margin-right: 10px; ">
+                                <img src="img/StellaArtois.png " class="img-fluid " alt="logoEmpresa " style="width: 80px; margin-right: 10px; ">
+                            </div><br>
+                            <div class="d-flex ">
+                                <img src="img/Antarctica.png " class="img-fluid " alt="logoEmpresa " style="width: 100px; margin-right: 10px; ">
+                                <img src="img/Colorado.png " class="img-fluid " alt="logoEmpresa " style="width: 120px; margin-right: 10px;">
+                                <img src="img/Patagonia.png " class="img-fluid " alt="logoEmpresa " style="width: 150px; margin-right: 10px;">
+                            </div>
+                        </div>
+                        <hr width=“ 2” size=“ 100”>
+
+                        <div class="col-md-6 col-sm-6 col-xs-4  align-self-center">
+                            <h5 class="heading "></h5>
+                            <ul class="text-white text-center text-wrap">
+                                <li>Villaggio Mall Center:</li>
+                                <li><a href="https://www.google.com.br/maps/place/Av.+Affonso+Jos%C3%A9+Aiello,+14-45+-+Vila+Avia%C3%A7%C3%A3o,+Bauru+-+SP,+17018-520/@-22.3686153,-49.0586672,17z/data=!3m1!4b1!4m5!3m4!1s0x94bf60b482512d5d:0x9fe9e9eac728781d!8m2!3d-22.3686203!4d-49.0564785 "
+                                        target="_blank " class="btn text-white " style="font-size: 15px; "><i
+                                            class="bi bi-geo-alt-fill"></i> Av. Affonso José Aiello, 14-45 - Vila
+                                        Aviação, Bauru - SP, <br>
+                                         CEP:17018-520</a></li>
+                                <li><i class="bi bi-telephone-fill "></i> (14) 99840-0028</li>
+                            </ul>
+                            <div class="share text-center">
+                                <a href="https://pt-br.facebook.com/villadochoppbauru/" target="_blank " class="btn  text-white " style="font-size: 20px"><i class="bi bi-facebook"
+                                        style="font-size: 40px"></i> Facebook</a>
+                                <a href="https://instagram.com/villadochoppbauru?utm_medium=copy_link " target="_blank " class="btn  text-white " style="font-size: 20px"><i class="bi bi-instagram"
+                                        style="font-size: 40px"></i> Instagram</a>
+                            </div>
+                        </div>
+                        <hr class="text-white" width=“ 2” size=“ 100”>
+                        <div class="col-md-3 col-sm-6 col-xs-4  align-self-end ">
+                            <h5 class="heading "></h5>
+
+                            <div class="d-flex text-center">
+                                <img src="img/Menor18.png" class="img-fluid text-center" alt="logoEmpresa " style="width: 105px;  margin-right: 15px;">
+                                <img src="img/icons/ProibidoFumar.ico " class="img-fluid text-center" alt="logoEmpresa " style="width: 105px; ">
+                            </div><br>
+                            <div class="d-flex "></div>
+                            <h4 class="text-white text-center ">Não aceitamos cheques</h4>
+                            <h4 class="text-white text-center ">Aceitamos esse cartões</h4>
+                            <div class="d-flex text-center ">
+                                <img src="img/icons/CartVisa.png " class="img-fluid text-center " alt="logoEmpresa " style="width: 100px; margin-right: 15px;">
+                                <img src="img/icons/Mastercard.png" class="img-fluid text-center " alt="logoEmpresa " style="width: 100px; ">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class=" divider mb-4 "> </div>
+                    <div class="row " style="font-size:10px; ">
+                        <div class="col-md-12 col-sm-6 col-xs-4 ">
+                            <div class="pull-left ">
+                                <h6 class="credit text-center text-white "> © 2021 Copyright: Criado por <span> Bruno
+                                        Henrique da Silva </span> | todos os direitos reservados! </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </footer>
+
+
+
+        <!-- footer section  end-->
+
+        <!--<script src="js/script.js "></script>-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF " crossorigin="anonymous "></script>
+</body>
+
+</html>
